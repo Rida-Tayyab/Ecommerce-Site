@@ -132,7 +132,7 @@ const handleLogout = () => {
       background-color: #ede9fe;
 
       h1 {
-        color: #4f46e5;
+        color: #311954;
         font-size: 20px;
         margin: 0;
         font-weight: bold;
@@ -158,14 +158,14 @@ const handleLogout = () => {
       h2 {
         margin: 0;
         font-size: 18px;
-        color: #4f46e5;
+        color: #311954;
       }
 
       .user-profile {
         display: flex;
         align-items: center;
         cursor: pointer;
-        color: #4f46e5;
+        color: #311954;
 
         .el-icon {
           margin-left: 5px;
@@ -177,6 +177,25 @@ const handleLogout = () => {
   .el-main {
     background-color: #f3f4f6;
     padding: 20px;
+  }
+}
+
+.el-menu-vertical {
+  .el-menu-item.is-active {
+    background-color: #ede9fe !important;
+    color: #311954 !important;
+    font-weight: bold;
+    
+    svg, .el-icon {
+      color: #311954 !important;
+    }
+  }
+  .el-menu-item:hover {
+    color: #311954 !important;
+    
+    svg, .el-icon {
+      color: #311954 !important;
+    }
   }
 }
 </style> 
