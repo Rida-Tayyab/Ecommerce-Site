@@ -198,4 +198,13 @@ const handleLogout = () => {
     }
   }
 }
+
+.el-dropdown-menu__item:hover {
+  background-color: #ede9fe !important;
+  color: #311954 !important;
+
+  svg, .el-icon {
+    color: #311954 !important;
+  }
+}
 </style> 
